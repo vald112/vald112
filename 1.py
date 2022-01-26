@@ -2,10 +2,7 @@
 import requests
 from bs4 import BeautifulSoup as bs
 import sqlite3
-#import telebot
 
-#token = '5006114594:AAGYqji7s2Dlr0wGCEpJNeuFlgYKiMUe6VA'
-#bot=telebot.Telebot(token)
 db = sqlite3.connect("habrbot.db")
 cur = db.cursor()
 
