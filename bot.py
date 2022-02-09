@@ -22,7 +22,7 @@ file = open('weather', 'r')
 w = file.read()
 file1 = open('i', 'r')
 p = file1.read()
-e = 'Доброго утра! Бро, проснись и пой! \n \nСейчас на Краснодаре ' + str(w) + '. ' + 'И ' + str(p) + '.\nПродуктивного дня!'
+e = 'Доброго утра! Бро, проснись и пой! \n \nСейчас в Краснодаре ' + str(w) + '. ' + 'И ' + str(p) + '.\nПродуктивного дня!'
 #Вместо 12345678 нужно вписать свой id в telegram
 bot.send_message(12345678, e)
 file.close()
@@ -67,7 +67,7 @@ def handle_docs_photo(message):
         #Введите свой чат id, можно посмотреть в специальных ботах
         chat_id = 1234567
 
-        #Качаем музыку на машину на которой крутиться бот
+        #Качаем музыку на машину на которой крутится бот
         file_info = bot.get_file(message.audio.file_id)
         downloaded_file = bot.download_file(file_info.file_path)
 
