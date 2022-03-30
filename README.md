@@ -10,6 +10,8 @@
 5. Присылает по 1 статье с хабра. Парсится страница хабра. Был переработан интерфейс. Теперь есть кнопки управления и можно не писать сообщения, а нажимать на виртуальную клавиатуру.
 
 ![Image alt](https://github.com/vald112/vald112/blob/main/screenshots/2022-03-30_17-24.png)
+
 ![Image alt](https://github.com/vald112/vald112/blob/main/screenshots/2022-03-30_17-25.png)
+
 ![Image alt](https://github.com/vald112/vald112/blob/main/screenshots/2022-03-30_17-25_1.png)
 
